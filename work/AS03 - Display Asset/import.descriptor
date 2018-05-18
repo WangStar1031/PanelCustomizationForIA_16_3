@@ -1,0 +1,28 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "AS03 - Display Asset" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    },
+    "AS03 - Deprec. Areas" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "835353bd-48c0-461e-880c-e91a4192a2d1" : "7c767297-81ba-4319-ad66-ecfdde0d9014",
+    "00e7d2d4-88ec-4228-9957-8e933cdacabd" : "7c767297-81ba-4319-ad66-ecfdde0d9014",
+    "9be58ed8-aadf-498f-b49f-977b3b78495d" : "0c024c6c-128b-47ba-a0ba-f174a079d31b",
+    "450a0792-283b-49b8-9c33-f8588cd02a64" : "0c024c6c-128b-47ba-a0ba-f174a079d31b",
+    "ba344e19-ca29-4b8e-a889-0a0af82cbc32" : "7c767297-81ba-4319-ad66-ecfdde0d9014",
+    "3037f09c-fcf0-443f-89fb-7121bc4c1b0d" : "0c024c6c-128b-47ba-a0ba-f174a079d31b"
+  }
+}

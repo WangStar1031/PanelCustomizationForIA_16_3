@@ -1,0 +1,12 @@
+{
+  "createdBy" : "admin@sigma-sbs.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "KSB1 - Display Actual Cost Line Items for Cost Centers",
+  "description" : "",
+  "usedBySearches" : null,
+  "nestedSearch" : false,
+  "state" : "DRAFT",
+  "inUse" : false
+}

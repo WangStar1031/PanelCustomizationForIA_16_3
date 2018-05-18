@@ -1,0 +1,12 @@
+{
+  "createdBy" : "sue@iacustomer.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "FBL1N - Vendor Items Display",
+  "description" : null,
+  "usedBySearches" : null,
+  "nestedSearch" : false,
+  "state" : "DRAFT",
+  "inUse" : false
+}

@@ -1,0 +1,18 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "S_ALR_87012287 - Document Journal" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "dd7e80de-4bc4-4345-994c-c4e4f86e0621" : "319d05a7-7d12-49d5-80ab-b5e76cb3ad11",
+    "c7a8e4bc-4b91-4889-9d05-5ee031865f32" : "319d05a7-7d12-49d5-80ab-b5e76cb3ad11",
+    "4d4f5903-bc07-4815-a8c4-0e0f4afbf76b" : "319d05a7-7d12-49d5-80ab-b5e76cb3ad11"
+  }
+}

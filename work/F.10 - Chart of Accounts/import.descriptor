@@ -1,0 +1,18 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "F.10 - Chart of Accounts" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "d4e084df-aef5-4adf-9e1f-6ebf437c509f" : "8c1b3c4d-0552-4d79-944f-8fba72baa012",
+    "c4e80c2e-6d63-41ae-b7b9-64f6d811c521" : "8c1b3c4d-0552-4d79-944f-8fba72baa012",
+    "a3446e27-9a10-401e-bf84-4e4bc9994384" : "8c1b3c4d-0552-4d79-944f-8fba72baa012"
+  }
+}

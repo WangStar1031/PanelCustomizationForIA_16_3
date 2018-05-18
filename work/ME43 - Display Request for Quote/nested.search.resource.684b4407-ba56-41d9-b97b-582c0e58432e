@@ -1,0 +1,12 @@
+{
+  "createdBy" : "admin@sigma-sbs.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "ME43 - Display Request for Quote Items",
+  "description" : null,
+  "usedBySearches" : [ "ME43 - Display Request for Quote" ],
+  "nestedSearch" : true,
+  "state" : "DRAFT",
+  "inUse" : false
+}

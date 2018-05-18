@@ -1,0 +1,18 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "FBL1N - Vendor Items Display" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "6aae1265-f635-42fb-9831-750e1e8497d9" : "746ae5b3-bbda-45dc-acaa-391849cb5b52",
+    "cf853ea6-80f5-47e4-812a-fa972ca967df" : "746ae5b3-bbda-45dc-acaa-391849cb5b52",
+    "cf262d05-ed56-4ee9-baed-93323d5c0c53" : "746ae5b3-bbda-45dc-acaa-391849cb5b52"
+  }
+}

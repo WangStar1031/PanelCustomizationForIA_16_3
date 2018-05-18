@@ -1,0 +1,18 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "VK13 - Display condition record" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "c11bbd78-2d91-44ae-ad13-684dab21f3a3" : "9548e28e-e839-4a64-bf1f-edacc26562d6",
+    "84080fe5-fbe2-4258-b609-dedb90fda028" : "9548e28e-e839-4a64-bf1f-edacc26562d6",
+    "d7fe7541-3847-49b3-aec7-3e5ab78ea68c" : "9548e28e-e839-4a64-bf1f-edacc26562d6"
+  }
+}

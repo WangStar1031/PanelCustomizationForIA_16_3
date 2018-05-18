@@ -1,0 +1,11 @@
+{
+  "createdBy" : "admin@sigma-sbs.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "d9d7c78c-bb7a-4827-931a-90e931e8fc56",
+  "form" : "<xhtml:html xmlns:xhtml=\"http://www.w3.org/1999/xhtml\" xmlns:xforms=\"http://www.w3.org/2002/xforms\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\n<xhtml:head>\n    <xforms:model>\n        <xforms:instance xmlns=\"\">\n            \n        <data>\n            <sEBELN/></data></xforms:instance>\n        <xforms:instance xmlns=\"\" id=\"labels\">\n            \n        <labels><sEBELN>Agreement:</sEBELN></labels></xforms:instance>\n        <xforms:instance xmlns=\"\" id=\"hints\">\n            \n        <hints><sEBELN/></hints></xforms:instance>\n        <xforms:instance xmlns=\"\" id=\"prompts\">\n            \n        <prompts><sEBELN/></prompts></xforms:instance>\n        <xforms:instance xmlns=\"\" id=\"alerts\">\n            \n        <alerts><sEBELN/></alerts></xforms:instance>\n        <xforms:instance xmlns=\"\" id=\"range-messages\">\n            \n        <rangemessages><sEBELN/></rangemessages></xforms:instance>\n        <xforms:instance xmlns=\"\" id=\"pattern-messages\">\n            \n        <patternmessages><sEBELN/></patternmessages></xforms:instance>\n        <xforms:submission id=\"submit01\" method=\"post\" serialization=\"application/xml\"/>\n        <xsd:schema xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xforms=\"http://www.w3.org/2002/xforms\" targetNamespace=\"http://www.w3.org/2002/xforms\" elementFormDefault=\"qualified\">\n        </xsd:schema>\n    <bind xmlns=\"http://www.w3.org/2002/xforms\" ref=\"/data/sEBELN\" required=\"true()\"/></xforms:model>\n</xhtml:head>\n<xhtml:body>\n<input xmlns=\"http://www.w3.org/2002/xforms\" ref=\"/data/sEBELN\" class=\"col-sm-2\"><label ref=\"instance('labels')/sEBELN\"/><hint ref=\"instance('hints')/sEBELN\"/><hint appearance=\"minimal\" ref=\"instance('prompts')/sEBELN\"/><alert ref=\"instance('alerts')/sEBELN\"/><message class=\"range\" ref=\"instance('range-messages')/sEBELN\"/><message class=\"pattern\" ref=\"instance('pattern-messages')/sEBELN\"/></input></xhtml:body>\n</xhtml:html>",
+  "creator" : "COMPOSITION",
+  "searchName" : "ME33K-Display Contract Items",
+  "compositionName" : "ME33K"
+}

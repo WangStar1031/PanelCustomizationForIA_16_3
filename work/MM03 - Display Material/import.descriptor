@@ -1,0 +1,48 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "MM03 - Tax data" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    },
+    "MM03 - Classification" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    },
+    "MM03 - Values for Class" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    },
+    "MM03 - Display Material" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "5ce75f54-fa0c-44b4-abac-6a7a210694cf" : "f7a5b7f6-58ba-43b3-a3a9-f4031640bf03",
+    "cf572c74-3916-40b5-949e-8b664fcf3a9c" : "3f7d9feb-eafd-431d-8c00-d6771d86cf98",
+    "f2926fd3-acef-443a-b88c-a66534509ace" : "72890227-d70e-4f75-8649-e1238afafffa",
+    "0babbb27-3eaa-4891-94df-edf1ba7a6ab0" : "72890227-d70e-4f75-8649-e1238afafffa",
+    "38ad97a1-cf64-48a9-bf65-5ad1892b062f" : "b7b60741-255f-49a5-a25f-9dacae84239f",
+    "a0d3960d-5cd0-4712-a415-5b3065b35ad3" : "f7a5b7f6-58ba-43b3-a3a9-f4031640bf03",
+    "cbe5a863-023f-4205-bb68-9700fdd70c42" : "3f7d9feb-eafd-431d-8c00-d6771d86cf98",
+    "25fa5823-e592-436b-afc4-3015e0cc494b" : "72890227-d70e-4f75-8649-e1238afafffa",
+    "ab30869d-06f3-4fc8-a827-91e2748ecaa5" : "b7b60741-255f-49a5-a25f-9dacae84239f",
+    "a82888f4-3eba-4250-b6ef-ac8c12eb41a0" : "b7b60741-255f-49a5-a25f-9dacae84239f",
+    "abb9c983-b873-4e99-ad58-e686527f7aa7" : "f7a5b7f6-58ba-43b3-a3a9-f4031640bf03",
+    "1dca29dc-c147-42a1-8272-22b6d5d5e1b5" : "3f7d9feb-eafd-431d-8c00-d6771d86cf98"
+  }
+}

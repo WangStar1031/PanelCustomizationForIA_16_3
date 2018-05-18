@@ -1,0 +1,12 @@
+{
+  "createdBy" : "admin@sigma-sbs.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "ME1L - Purchasing Info Record - Price History",
+  "description" : null,
+  "usedBySearches" : [ "ME1L - List Purchasing Info Record" ],
+  "nestedSearch" : true,
+  "state" : "PUBLISHED",
+  "inUse" : false
+}

@@ -1,0 +1,12 @@
+{
+  "createdBy" : "admin@sigma-sbs.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "FK10N - Vendor Balance Display",
+  "description" : null,
+  "usedBySearches" : null,
+  "nestedSearch" : false,
+  "state" : "PUBLISHED",
+  "inUse" : false
+}

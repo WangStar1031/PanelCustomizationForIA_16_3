@@ -1,0 +1,18 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "ZTFI_COLORADO04" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : "ZTFI_COLORADO04",
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "392bed63-1ea3-4245-9732-bc7f9819a583" : "6dc49228-dbf3-4611-89b5-ef943506e4a0",
+    "388310ea-7723-4614-9447-6c090cd2f0b1" : "6dc49228-dbf3-4611-89b5-ef943506e4a0",
+    "f74f7973-f40f-4b4e-8203-eac85e103497" : "6dc49228-dbf3-4611-89b5-ef943506e4a0"
+  }
+}

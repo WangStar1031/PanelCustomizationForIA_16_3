@@ -1,0 +1,12 @@
+{
+  "createdBy" : "admin@sigma-sbs.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "F.09 - GL Account List",
+  "description" : null,
+  "usedBySearches" : null,
+  "nestedSearch" : false,
+  "state" : "PUBLISHED",
+  "inUse" : false
+}

@@ -1,0 +1,12 @@
+{
+  "createdBy" : "admin@sigma-sbs.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "KS03 - Display Cost Center",
+  "description" : "Display Cost Center",
+  "usedBySearches" : null,
+  "nestedSearch" : false,
+  "state" : "PUBLISHED",
+  "inUse" : false
+}

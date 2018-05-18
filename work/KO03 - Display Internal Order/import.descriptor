@@ -1,0 +1,18 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "KO03 - Display Internal Order" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "a12511e8-341a-49aa-ab5b-4de15b05aaaf" : "011d0c15-99ca-4d7c-8fc9-4675a326b942",
+    "b6a75124-2871-4f3c-9bbd-ea93025f842b" : "011d0c15-99ca-4d7c-8fc9-4675a326b942",
+    "32a8f975-6bfe-4ad4-9ef4-c231ba70df47" : "011d0c15-99ca-4d7c-8fc9-4675a326b942"
+  }
+}

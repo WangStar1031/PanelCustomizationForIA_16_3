@@ -1,0 +1,12 @@
+{
+  "createdBy" : "admin@sigma-sbs.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "VA03 - Schedule lines ( item Data )",
+  "description" : null,
+  "usedBySearches" : [ "VA03 - Item Data", "VA03 - Item Detail" ],
+  "nestedSearch" : true,
+  "state" : "PUBLISHED",
+  "inUse" : false
+}

@@ -1,0 +1,28 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "VBO3 -Overview Material Rebate" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    },
+    "VBO3 - Display Rebate Overview Agreement" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "b28b3039-ab02-441a-8c38-fd50e607d0ac" : "bcda4fff-a680-4d9a-a872-e78e333ded9c",
+    "c4f450d4-fae3-450f-a3a2-e6983b562c6c" : "bcda4fff-a680-4d9a-a872-e78e333ded9c",
+    "268f78a9-a83a-4455-a822-2f789377b3e4" : "8ff19d8a-f822-48c7-be8e-a73ee9e660ce",
+    "a6e90240-6867-4672-a832-4a81356421ec" : "8ff19d8a-f822-48c7-be8e-a73ee9e660ce",
+    "b529bdb3-0510-40f1-ba0c-12afe4b96618" : "8ff19d8a-f822-48c7-be8e-a73ee9e660ce",
+    "25eface1-499a-4f32-84e5-369506210ad2" : "bcda4fff-a680-4d9a-a872-e78e333ded9c"
+  }
+}

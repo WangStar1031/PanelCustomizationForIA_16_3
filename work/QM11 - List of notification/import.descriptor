@@ -1,0 +1,18 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "QM11 - List of notification" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "da1c7bbb-039f-4eb3-ab3a-19bbf04d4963" : "8577d666-5fc1-44ce-a743-02c599f12e90",
+    "47553918-f8b4-4461-b1d0-5ca8c63232e1" : "8577d666-5fc1-44ce-a743-02c599f12e90",
+    "2d3e75d2-da13-466f-b8cf-52f87262533b" : "8577d666-5fc1-44ce-a743-02c599f12e90"
+  }
+}

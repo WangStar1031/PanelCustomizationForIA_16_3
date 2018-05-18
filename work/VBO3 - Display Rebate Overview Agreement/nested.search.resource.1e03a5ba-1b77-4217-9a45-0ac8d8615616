@@ -1,0 +1,12 @@
+{
+  "createdBy" : "admin@sigma-sbs.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "VBO3 -Overview Material Rebate",
+  "description" : "\"\"",
+  "usedBySearches" : [ "VBO3 - Display Rebate Overview Agreement" ],
+  "nestedSearch" : true,
+  "state" : "DRAFT",
+  "inUse" : false
+}

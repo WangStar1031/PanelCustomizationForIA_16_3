@@ -1,0 +1,18 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "KSB1 - Display Actual Cost Line Items for Cost Centers" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "4c761001-4f8e-4f5b-ae92-205e6f80e914" : "188c268a-589a-4d18-8058-b3a07fa9aa96",
+    "23cacbd2-47d8-49e3-ac4f-3d1203b7ae4a" : "188c268a-589a-4d18-8058-b3a07fa9aa96",
+    "df189677-53b2-44e8-b046-8782ceef6a97" : "188c268a-589a-4d18-8058-b3a07fa9aa96"
+  }
+}

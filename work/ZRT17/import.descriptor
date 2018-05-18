@@ -1,0 +1,18 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "ZRT17" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "0f065a6c-6c1d-41be-acd1-33bdf7bc37a0" : "74d04f41-44c0-4381-893f-048e15347fc8",
+    "980048ec-0fc0-41f6-8a57-eeaeb50e06f0" : "74d04f41-44c0-4381-893f-048e15347fc8",
+    "33822359-a4e8-4ae9-95f3-fa8ae6e5d057" : "74d04f41-44c0-4381-893f-048e15347fc8"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "createdBy" : "admin@sigma-sbs.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "9f095e3c-a571-4b43-b2a9-d070bee10ab3",
+  "query" : "declare namespace ia = \"urn:x-emc:ia:schema:fn\";\ndeclare namespace table=\"urn:x-emc:ia:schema:table\";\n\nimport module namespace sias=\"urn:x-sig:sias:util:fn\";\n\n \ndeclare variable $page external;\ndeclare variable $size external;\n \n(: Our External Search variable matching the SAP Fieldname :)\ndeclare variable $sSAKNR external;\ndeclare variable $sKTOPL external;\n \ndeclare function local:getResultsPage($rows, $page, $size) {\n  let $offset := $page * $size\n  let $total := count($rows)\n  return <results total=\"{ $total }\"> {\n    for $row in subsequence($rows, $offset + 1, $size)\n      return $row\n  } </results>\n};\n\ndeclare function local:addClause($whereClause as xs:string, $var as xs:string*, $expr as xs:string) as xs:string\n{\n\tif (empty($var) or $var = \"\")\n\tthen $whereClause\n\telse if ($whereClause = \"\") then $expr else concat($whereClause, \" and \", $expr)\n};\n\n(: Build a conditional Where clause :)\nlet $whereClause := local:addClause(\"\", $sKTOPL, concat(\"contains($ska1/KTOPL, &apos;\", $sKTOPL, \"&apos;)\"))\nlet $whereClause := local:addClause($whereClause, $sSAKNR, concat(\"contains($ska1/SAKNR, &apos;\", $sSAKNR, \"&apos;)\"))\nlet $whereClause := if ($whereClause != \"\") then concat(\"where \", $whereClause) else $whereClause\n\n\nlet $query-str := concat(\"for $ska1 in /SAP/SKA1/ROW, $skat in /SAP/SKAT/ROW[SPRAS='EN' and KTOPL=$ska1/KTOPL and SAKNR=$ska1/SAKNR] \", $whereClause, \" return <RS><SKA1>{ $ska1 }</SKA1><SKAT>{ $skat }</SKAT></RS>\")\nlet $main-query := xhive:evaluate($query-str)\nlet $rows := \n\tfor $rs in $main-query\n    return\n\n<row id=\"{string($rs/SKA1/ROW/@table:id)}\">\n\t<column name='cSAKNR'>{ sias:trimzero($rs/SKA1/ROW/SAKNR/text()) }</column>\n    <column name='cXBILK'>{ $rs/SKA1/ROW/XBILK/text() }</column>\n    <column name='cKTOKS'>{ $rs/SKA1/ROW/KTOKS/text() }</column>\n    <column name='cTXT50'>{ $rs/SKAT/ROW/TXT50/text() }</column>\n</row>\n\nreturn local:getResultsPage($rows, $page, $size)",
+  "moduleNamespaces" : [ "urn:x-sig:sias:util:fn" ],
+  "searchName" : "F.10 - Chart of Accounts",
+  "compositionName" : "F.10 - S_ALR_87012326"
+}

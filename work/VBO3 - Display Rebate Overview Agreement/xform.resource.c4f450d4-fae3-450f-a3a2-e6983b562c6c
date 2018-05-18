@@ -1,0 +1,11 @@
+{
+  "createdBy" : "admin@sigma-sbs.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "2b9e614e-973d-44b7-823a-2a6cd25b8b10",
+  "form" : "<xhtml:html xmlns:xhtml=\"http://www.w3.org/1999/xhtml\" xmlns:xforms=\"http://www.w3.org/2002/xforms\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\n<xhtml:head>\n    <xforms:model>\n        <xforms:instance xmlns=\"\">\n            \n        <data>\n            <sKNUMA/></data></xforms:instance>\n        <xforms:instance xmlns=\"\" id=\"labels\">\n            \n        <labels><sKNUMA>Agreement:</sKNUMA></labels></xforms:instance>\n        <xforms:instance xmlns=\"\" id=\"hints\">\n            \n        <hints><sKNUMA>ex: 37</sKNUMA></hints></xforms:instance>\n        <xforms:instance xmlns=\"\" id=\"prompts\">\n            \n        <prompts><sKNUMA>ex: 37</sKNUMA></prompts></xforms:instance>\n        <xforms:instance xmlns=\"\" id=\"alerts\">\n            \n        <alerts><sKNUMA/></alerts></xforms:instance>\n        <xforms:instance xmlns=\"\" id=\"range-messages\">\n            \n        <rangemessages><sKNUMA/></rangemessages></xforms:instance>\n        <xforms:instance xmlns=\"\" id=\"pattern-messages\">\n            \n        <patternmessages><sKNUMA/></patternmessages></xforms:instance>\n        <xforms:submission id=\"submit01\" method=\"post\" serialization=\"application/xml\"/>\n        <xsd:schema xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xforms=\"http://www.w3.org/2002/xforms\" targetNamespace=\"http://www.w3.org/2002/xforms\" elementFormDefault=\"qualified\">\n        </xsd:schema>\n    <bind xmlns=\"http://www.w3.org/2002/xforms\" ref=\"/data/sKNUMA\"/></xforms:model>\n</xhtml:head>\n<xhtml:body>\n<input xmlns=\"http://www.w3.org/2002/xforms\" ref=\"/data/sKNUMA\"><label ref=\"instance('labels')/sKNUMA\"/><hint ref=\"instance('hints')/sKNUMA\"/><hint appearance=\"minimal\" ref=\"instance('prompts')/sKNUMA\"/><alert ref=\"instance('alerts')/sKNUMA\"/><message class=\"range\" ref=\"instance('range-messages')/sKNUMA\"/><message class=\"pattern\" ref=\"instance('pattern-messages')/sKNUMA\"/></input></xhtml:body>\n</xhtml:html>",
+  "creator" : "COMPOSITION",
+  "searchName" : "VBO3 -Overview Material Rebate",
+  "compositionName" : "Set 1"
+}

@@ -1,0 +1,12 @@
+{
+  "createdBy" : "admin@sigma-sbs.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "XD03 - Partner Functions",
+  "description" : null,
+  "usedBySearches" : [ "XD03 - Display Customer" ],
+  "nestedSearch" : true,
+  "state" : "PUBLISHED",
+  "inUse" : false
+}

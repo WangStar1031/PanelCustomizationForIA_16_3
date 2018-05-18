@@ -1,0 +1,18 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "S_ALR_87012357 - Advance Return for Tax on Sales and Purchases" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "615c2070-c8fb-4a84-a322-0a024594d15f" : "ac143c53-040d-4c48-b806-9e4ee856c58f",
+    "32b9d25b-004e-4819-b184-d80618d9b828" : "ac143c53-040d-4c48-b806-9e4ee856c58f",
+    "b4de147f-8e00-4a7d-96f9-b6f95a66d06d" : "ac143c53-040d-4c48-b806-9e4ee856c58f"
+  }
+}

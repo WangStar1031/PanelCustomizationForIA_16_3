@@ -1,0 +1,12 @@
+{
+  "createdBy" : "admin@sigma-sbs.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "MM60 - Materials List",
+  "description" : "",
+  "usedBySearches" : null,
+  "nestedSearch" : false,
+  "state" : "PUBLISHED",
+  "inUse" : false
+}

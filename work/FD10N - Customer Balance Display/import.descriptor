@@ -1,0 +1,18 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "FD10N - Customer Balance Display" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "f944beef-e3e9-4e38-b087-d26bd72617bf" : "f6fcbc6e-d3fb-4fa0-93e9-f238d18824ee",
+    "46a3b9e9-ec41-4be2-84ac-a60972d61879" : "f6fcbc6e-d3fb-4fa0-93e9-f238d18824ee",
+    "fcbe7f41-025a-4bc7-b24d-194074e37c84" : "f6fcbc6e-d3fb-4fa0-93e9-f238d18824ee"
+  }
+}

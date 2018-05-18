@@ -1,0 +1,12 @@
+{
+  "createdBy" : "admin@sigma-sbs.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "KA03 - Display Cost Element",
+  "description" : "",
+  "usedBySearches" : null,
+  "nestedSearch" : false,
+  "state" : "DRAFT",
+  "inUse" : false
+}

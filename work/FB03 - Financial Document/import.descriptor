@@ -1,0 +1,38 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "FB03 - FInancial Document - GOS" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    },
+    "FB03 - Display Document Line Item" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    },
+    "FB03 - Financial Document" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "e6aade9c-d4d4-432a-a073-5088e9da4097" : "e92eba75-8863-4b06-a4f6-6108b4fd3d9b",
+    "62350e55-d4b3-46d9-a4ab-f4695faeefbb" : "f01a1c1b-30a1-4ceb-aa8e-55b361a34a21",
+    "4ad6f7cb-1762-451f-b4db-7b4c46c5f8ba" : "e92eba75-8863-4b06-a4f6-6108b4fd3d9b",
+    "266cbc95-1afe-4524-b15c-fd10470adc49" : "f01a1c1b-30a1-4ceb-aa8e-55b361a34a21",
+    "bddef049-67c1-4883-b673-43d0ec9611b5" : "7dd8fb92-0553-4997-9ff1-d02260551727",
+    "9cabc935-724f-49a8-9bb9-781aa4520bdc" : "7dd8fb92-0553-4997-9ff1-d02260551727",
+    "92d08b42-80f0-4807-a14e-f0ccd2d8f2a5" : "e92eba75-8863-4b06-a4f6-6108b4fd3d9b",
+    "34bdf904-caff-44c5-8360-6d3e55663cfe" : "f01a1c1b-30a1-4ceb-aa8e-55b361a34a21",
+    "95d93073-a547-4840-ab5b-e249d815fcc2" : "7dd8fb92-0553-4997-9ff1-d02260551727"
+  }
+}

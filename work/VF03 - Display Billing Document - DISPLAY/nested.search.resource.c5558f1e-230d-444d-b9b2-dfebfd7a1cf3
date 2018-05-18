@@ -1,0 +1,12 @@
+{
+  "createdBy" : "admin@sigma-sbs.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "VF03 - Partner - Item detail",
+  "description" : null,
+  "usedBySearches" : [ "VF03 - Invoice Display : Overview of Billing Items" ],
+  "nestedSearch" : true,
+  "state" : "DRAFT",
+  "inUse" : false
+}

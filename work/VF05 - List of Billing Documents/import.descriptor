@@ -1,0 +1,28 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "VF05 - List of Billing Documents" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    },
+    "VF-03 - Invoice Display : Overview of Billing Items(VF05)" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "7882800d-e64b-44fd-bcf5-efffd6244a7d" : "18559c39-e6f6-4d1f-81eb-5dfcdd2c4367",
+    "1189a211-daf8-450b-91f3-0e1d0be1b831" : "18559c39-e6f6-4d1f-81eb-5dfcdd2c4367",
+    "5583c4f5-67ea-4547-89d8-8b486ffe48c6" : "5e17b6a0-b7c2-4e65-9cbe-e0d32ea47abc",
+    "ce96c053-4db8-4001-83d0-667753c4fcf8" : "5e17b6a0-b7c2-4e65-9cbe-e0d32ea47abc",
+    "6964b632-6b6a-4dfa-be1c-962fcbee7982" : "18559c39-e6f6-4d1f-81eb-5dfcdd2c4367",
+    "a7ef7a65-612b-4cf2-aea6-6b0087969cb5" : "5e17b6a0-b7c2-4e65-9cbe-e0d32ea47abc"
+  }
+}

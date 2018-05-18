@@ -1,0 +1,48 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "VF03 - Partner - Item detail" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    },
+    "VF03 - Invoice Display : Overview of Billing Items" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    },
+    "VF03 - Display Billing Document - DISPLAY" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    },
+    "VF03 - Head.prtnrs" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "63484c85-c247-4a15-848a-e3c55f3bb545" : "624f1c5a-75f5-4b1e-bfc4-68982c52977f",
+    "a758cd86-1557-4b55-a2ab-bea9d1c3707e" : "12e70c8a-0b5b-4333-bba1-e7cf14359d4f",
+    "4b57367d-6adc-4d1c-9ffa-f0163e1ca005" : "db9cddd0-a3e9-4cf3-bd43-f140c283d19d",
+    "4c52e799-1066-4b43-b42d-fd3dc73d5de4" : "94d63e8c-038b-44a2-8389-c7f2fb3d9f6b",
+    "998ffe51-c60d-4879-820f-f382f3210961" : "12e70c8a-0b5b-4333-bba1-e7cf14359d4f",
+    "6ef06ef0-96c8-41b3-9f95-b54d2a900306" : "94d63e8c-038b-44a2-8389-c7f2fb3d9f6b",
+    "4e0f07d9-4e4a-4ad9-9c87-fc0422030dc1" : "94d63e8c-038b-44a2-8389-c7f2fb3d9f6b",
+    "54b9dc26-70a5-4d37-916c-1fe4a3c2bdaa" : "12e70c8a-0b5b-4333-bba1-e7cf14359d4f",
+    "51832ba6-d393-41a8-a261-293c1ba2c6de" : "db9cddd0-a3e9-4cf3-bd43-f140c283d19d",
+    "fbb1aca4-19aa-4a65-9ca5-1358686884ae" : "624f1c5a-75f5-4b1e-bfc4-68982c52977f",
+    "e27ec6be-526f-4bb9-9973-be022a2ad345" : "624f1c5a-75f5-4b1e-bfc4-68982c52977f",
+    "44d21648-1253-42d7-8292-3375a9a69152" : "db9cddd0-a3e9-4cf3-bd43-f140c283d19d"
+  }
+}

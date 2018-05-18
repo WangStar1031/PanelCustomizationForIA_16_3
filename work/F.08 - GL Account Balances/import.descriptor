@@ -1,0 +1,18 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "F.08 - GL Account Balances" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "4c331943-52df-4844-96f5-765589450c8d" : "f1109757-1866-497a-90eb-2c999884fc37",
+    "43077131-5501-431b-9164-e05ee9354073" : "f1109757-1866-497a-90eb-2c999884fc37",
+    "1a5cdac8-62ff-4a27-9462-a91e1cf2f779" : "f1109757-1866-497a-90eb-2c999884fc37"
+  }
+}

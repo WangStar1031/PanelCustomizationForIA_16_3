@@ -1,0 +1,28 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "ME53 - Purchase Requisition: Account Assignment" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    },
+    "ME53 - Display Purchase Requisition" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "50126c58-8bc6-4468-b75a-27d162325974" : "627cd15c-8a3b-49f4-9717-69dba6209d93",
+    "e4dbfc88-3a0e-4b4f-b93a-5645c5c8ea01" : "627cd15c-8a3b-49f4-9717-69dba6209d93",
+    "01a4db91-1743-44d4-8de1-e91147942bb1" : "23147f44-8044-4c83-a394-9649f9a6b6d6",
+    "4ceb13a4-62e5-4969-9950-fea2dae47013" : "23147f44-8044-4c83-a394-9649f9a6b6d6",
+    "f22b37d7-f82f-417d-8c80-5931e845a5f0" : "627cd15c-8a3b-49f4-9717-69dba6209d93",
+    "0b00e8a5-5451-4f1e-9a45-ebae5571e273" : "23147f44-8044-4c83-a394-9649f9a6b6d6"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "createdBy" : "admin@sigma-sbs.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "VF03 - Head.prtnrs",
+  "description" : null,
+  "usedBySearches" : [ "VF03 - Display Billing Document - DISPLAY" ],
+  "nestedSearch" : true,
+  "state" : "DRAFT",
+  "inUse" : false
+}

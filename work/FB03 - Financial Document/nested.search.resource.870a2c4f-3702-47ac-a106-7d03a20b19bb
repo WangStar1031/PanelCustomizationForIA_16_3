@@ -1,0 +1,12 @@
+{
+  "createdBy" : "admin@sigma-sbs.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "FB03 - FInancial Document - GOS",
+  "description" : "",
+  "usedBySearches" : [ "FB03 - Financial Document" ],
+  "nestedSearch" : true,
+  "state" : "DRAFT",
+  "inUse" : false
+}

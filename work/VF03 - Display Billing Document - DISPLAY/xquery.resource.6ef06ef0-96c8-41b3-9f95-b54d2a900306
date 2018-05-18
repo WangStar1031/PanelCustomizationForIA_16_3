@@ -1,0 +1,11 @@
+{
+  "createdBy" : "admin@sigma-sbs.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "692efffe-bf4e-43db-85ed-2d046e5f9281",
+  "query" : "import module namespace sias=\"urn:x-sig:sias:util:fn\";\n\ndeclare namespace ia = \"urn:x-emc:ia:schema:fn\";\ndeclare namespace table=\"urn:x-emc:ia:schema:table\";\n\ndeclare variable $page external;\ndeclare variable $size external;\n\ndeclare variable $sVBELN external;\n\n\ndeclare function local:getResultsPage($rows, $page, $size) \n{\n  let $offset := $page * $size\n  let $total := count($rows)\n  return <results total=\"{ $total }\"> {\n    for $row in subsequence($rows, $offset + 1, $size)\n      return $row\n  } </results>\n};\n\ndeclare function local:addClause($whereClause as xs:string, $var as xs:string*, $expr as xs:string) as xs:string\n{\nif (empty($var) or $var = \"\")\nthen $whereClause\nelse if ($whereClause = \"\") then $expr else concat($whereClause, \" and \", $expr)\n};\n\n\nlet $whereClause := local:addClause(\"\", $sVBELN, concat(\"contains($vbpa/VBELN, &apos;\", $sVBELN, \"&apos;)\" ))\nlet $whereClause := if ($whereClause != \"\") then concat(\"where \", $whereClause) else $whereClause  \n \n\nlet $query-str := concat(\"for $vbpa in /SAP/VBPA/ROW[POSNR = '0'], $kna1 in /SAP/KNA1/ROW[KUNNR = $vbpa/KUNNR] \", $whereClause, \" return <RS><VBPA>{ $vbpa }</VBPA><KNA1>{ $kna1 }</KNA1></RS>\")\n\nlet $main-query := xhive:evaluate($query-str)\n\nlet $rows := \n               for $rs in $main-query\n   \n   let $TPART := sias:get_tpart($rs/VBPA/ROW/PARVW/text())\n    \nreturn\n<row id='{string($rs/VBPA/ROW/@table:id)}'>\n<column name='cTPART'> { $TPART } </column>\n<column name='cKUNNR'>{ $rs/VBPA/ROW/KUNNR/text() }</column>\n<column name='cNAME1'>{ $rs/KNA1/ROW/NAME1/text() }</column>\n<column name='cSTRAS'>{ $rs/KNA1/ROW/STRAS/text() }</column>\n<column name='cPSTLZ'>{ $rs/KNA1/ROW/PSTLZ/text() }</column>\n<column name='cORT01'>{ $rs/KNA1/ROW/ORT01/text() }</column>\n<column name='cKNREF'>{ $rs/VBPA/ROW/KNREF/text() }</column>\n</row>\n\nreturn local:getResultsPage($rows, $page, $size)\n",
+  "moduleNamespaces" : [ "urn:x-sig:sias:util:fn" ],
+  "searchName" : "VF03 - Head.prtnrs",
+  "compositionName" : "VF03 - Head.prtnrs"
+}

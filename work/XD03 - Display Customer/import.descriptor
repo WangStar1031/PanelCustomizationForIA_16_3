@@ -1,0 +1,48 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "XD03 - Payment Transaction" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    },
+    "XD03 - Unloading Points" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    },
+    "XD03 - Display Customer" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    },
+    "XD03 - Partner Functions" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "cee3c662-8785-4038-a446-6f7284959704" : "f758701a-e2e4-4d45-889e-e9b59d9e4eff",
+    "037599dd-cf13-4b35-a1fd-82b8b9cf9ae8" : "456959a0-ce75-4978-b35e-4fdda27ed877",
+    "39f10111-b925-4ab8-b475-ab1205374b30" : "826ab874-2275-4e36-8600-f2cbb8d3175d",
+    "bcb7925f-e185-444d-a295-b4eaf3cf9107" : "f758701a-e2e4-4d45-889e-e9b59d9e4eff",
+    "96d1bac2-0adf-40e3-94c7-6b2a6a2442ce" : "456959a0-ce75-4978-b35e-4fdda27ed877",
+    "03da4df9-c3ea-4ceb-adaa-8f245272abfe" : "f758701a-e2e4-4d45-889e-e9b59d9e4eff",
+    "96c47fb2-f754-4cdc-ba86-631e795074a4" : "826ab874-2275-4e36-8600-f2cbb8d3175d",
+    "791bc4df-98a1-4dc1-9d4b-7f0f4cbfc53e" : "826ab874-2275-4e36-8600-f2cbb8d3175d",
+    "fc025621-65fd-4f9e-be9d-f68ae9e3266b" : "814b72f1-57b2-41a7-9ecf-27bd40d97e41",
+    "0084cae2-48f6-446f-93e7-8e15068cedfa" : "814b72f1-57b2-41a7-9ecf-27bd40d97e41",
+    "63bfa055-0cc3-4445-97de-e35906d2189e" : "814b72f1-57b2-41a7-9ecf-27bd40d97e41",
+    "1f510f5a-02af-4eac-bef2-6240e7241889" : "456959a0-ce75-4978-b35e-4fdda27ed877"
+  }
+}

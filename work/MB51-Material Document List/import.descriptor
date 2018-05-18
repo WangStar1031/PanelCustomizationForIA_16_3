@@ -1,0 +1,18 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "MB51-Material Document List" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "fa6b3a77-06d3-4f50-b1c3-3131f049f072" : "1653b19d-dbe5-4dfa-97c2-6bb902191b82",
+    "8f647075-3f61-4411-942b-b8758801d4ca" : "1653b19d-dbe5-4dfa-97c2-6bb902191b82",
+    "280a8232-610c-4999-a71a-12060ea739e1" : "1653b19d-dbe5-4dfa-97c2-6bb902191b82"
+  }
+}

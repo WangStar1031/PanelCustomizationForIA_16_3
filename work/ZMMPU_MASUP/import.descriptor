@@ -1,0 +1,18 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "ZMMPU_MASUP" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "12103ea3-fe42-416c-97ad-df8d4e9a15a5" : "9dcec266-ceee-4a0d-b99f-ba0578475d2f",
+    "bc2e2a25-e921-431f-b823-69c57303f534" : "9dcec266-ceee-4a0d-b99f-ba0578475d2f",
+    "3b05a6ea-5b6a-4ef8-bb36-9a09bd9c7f81" : "9dcec266-ceee-4a0d-b99f-ba0578475d2f"
+  }
+}

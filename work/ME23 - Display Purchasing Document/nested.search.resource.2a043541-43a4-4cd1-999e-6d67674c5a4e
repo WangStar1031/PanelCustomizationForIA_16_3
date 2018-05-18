@@ -1,0 +1,12 @@
+{
+  "createdBy" : "sue@iacustomer.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "ME23 - Display Purchasing Document Items",
+  "description" : null,
+  "usedBySearches" : [ "ME23 - Display Purchasing Document", "A--Test Seb" ],
+  "nestedSearch" : true,
+  "state" : "PUBLISHED",
+  "inUse" : false
+}

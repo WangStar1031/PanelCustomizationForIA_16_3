@@ -1,0 +1,12 @@
+{
+  "createdBy" : "admin@sigma-sbs.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "XK03 - Vendor Transaction",
+  "description" : null,
+  "usedBySearches" : [ "XK03 - Display Vendor" ],
+  "nestedSearch" : true,
+  "state" : "PUBLISHED",
+  "inUse" : false
+}

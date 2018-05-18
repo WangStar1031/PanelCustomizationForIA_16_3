@@ -1,0 +1,11 @@
+{
+  "createdBy" : "sue@iacustomer.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "sue@iacustomer.com",
+  "lastModifiedDate" : null,
+  "name" : "20f4c038-94f7-415b-bb07-496a19b62f0f",
+  "form" : "<xhtml:html xmlns:xhtml=\"http://www.w3.org/1999/xhtml\" xmlns:xforms=\"http://www.w3.org/2002/xforms\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\n<xhtml:head>\n    <xforms:model>\n        <xforms:instance xmlns=\"\">\n            \n        <data>\n            <sMATNR/></data></xforms:instance>\n        <xforms:instance xmlns=\"\" id=\"labels\">\n            \n        <labels><sMATNR>Material</sMATNR></labels></xforms:instance>\n        <xforms:instance xmlns=\"\" id=\"hints\">\n            \n        <hints><sMATNR/></hints></xforms:instance>\n        <xforms:instance xmlns=\"\" id=\"prompts\">\n            \n        <prompts><sMATNR/></prompts></xforms:instance>\n        <xforms:instance xmlns=\"\" id=\"alerts\">\n            \n        <alerts><sMATNR/></alerts></xforms:instance>\n        <xforms:instance xmlns=\"\" id=\"range-messages\">\n            \n        <rangemessages><sMATNR/></rangemessages></xforms:instance>\n        <xforms:instance xmlns=\"\" id=\"pattern-messages\">\n            \n        <patternmessages><sMATNR/></patternmessages></xforms:instance>\n        <xforms:submission id=\"submit01\" method=\"post\" serialization=\"application/xml\"/>\n        <xsd:schema xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xforms=\"http://www.w3.org/2002/xforms\" targetNamespace=\"http://www.w3.org/2002/xforms\" elementFormDefault=\"qualified\">\n        </xsd:schema>\n    <bind xmlns=\"http://www.w3.org/2002/xforms\" ref=\"/data/sMATNR\"/></xforms:model>\n</xhtml:head>\n<xhtml:body>\n<input xmlns=\"http://www.w3.org/2002/xforms\" ref=\"/data/sMATNR\"><label ref=\"instance('labels')/sMATNR\"/><hint ref=\"instance('hints')/sMATNR\"/><hint appearance=\"minimal\" ref=\"instance('prompts')/sMATNR\"/><alert ref=\"instance('alerts')/sMATNR\"/><message class=\"range\" ref=\"instance('range-messages')/sMATNR\"/><message class=\"pattern\" ref=\"instance('pattern-messages')/sMATNR\"/></input></xhtml:body>\n</xhtml:html>",
+  "creator" : "COMPOSITION",
+  "searchName" : "MM03 - Tax data",
+  "compositionName" : "Set 1"
+}

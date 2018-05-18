@@ -1,0 +1,28 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "ME1L - List Purchasing Info Record" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    },
+    "ME1L - Purchasing Info Record - Price History" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "332b18fc-85a8-4a1f-9a6c-5d685fd3ecd7" : "65dba7f5-6bc6-499f-a362-442ad964422c",
+    "19647fc1-44cd-482d-8591-bcb884e52060" : "65dba7f5-6bc6-499f-a362-442ad964422c",
+    "a90236d8-9514-47db-b235-ece8f9314957" : "65dba7f5-6bc6-499f-a362-442ad964422c",
+    "748a275b-58b9-4b37-b582-f5c624815291" : "fbdae8c0-fdad-40ea-a409-f98e4eb8d05a",
+    "623576d5-c10c-402c-990e-3a24cdd75bec" : "fbdae8c0-fdad-40ea-a409-f98e4eb8d05a",
+    "187a10f2-7d14-4971-a7af-2daf79aaf81f" : "fbdae8c0-fdad-40ea-a409-f98e4eb8d05a"
+  }
+}

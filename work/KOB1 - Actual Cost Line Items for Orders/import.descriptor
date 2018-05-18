@@ -1,0 +1,18 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "KOB1 - Actual Cost Line Items for Orders" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "9afc975f-41e8-45dc-9ab0-612a6fb4f40b" : "c9b987b1-3d80-42dc-8a64-8729a3f8825f",
+    "9088e0ea-ef92-4bb8-8c6d-eb0ea9b151dc" : "c9b987b1-3d80-42dc-8a64-8729a3f8825f",
+    "6b437614-1004-448e-a1ac-b77a363dd849" : "c9b987b1-3d80-42dc-8a64-8729a3f8825f"
+  }
+}

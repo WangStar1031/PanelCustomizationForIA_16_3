@@ -1,0 +1,18 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "FBL5N - Customer Line Items Display" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "321f1360-1fa9-49a8-878a-e9470afa0b89" : "632615e4-19e3-43f1-8006-60716929a1c5",
+    "cb18192c-0b79-4ebc-8553-768d4fa00558" : "632615e4-19e3-43f1-8006-60716929a1c5",
+    "5a102d5f-3ef5-47a6-b3ca-b27ce2fd294d" : "632615e4-19e3-43f1-8006-60716929a1c5"
+  }
+}

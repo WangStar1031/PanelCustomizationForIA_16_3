@@ -1,0 +1,48 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "VA03 - Item Detail" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    },
+    "VA03 - Display Sales Order" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    },
+    "VA03 - Partner List Item data" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    },
+    "VA03 - Schedule lines ( item Data )" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "e6274872-72ee-4112-ad4b-ee25c3760975" : "6b33ace7-0f25-40e2-bc66-b60eac452357",
+    "9762301a-8475-4a98-8ce1-ef1345c169cc" : "334f581b-26d1-4927-908e-973ff7c5c619",
+    "bfd9ca36-57f2-4ced-96e4-acdc06315b97" : "ac818208-d17a-4890-bd2f-17a8d7ed4d8c",
+    "e7f24612-d660-4de1-9671-2fd65ac8c399" : "ac818208-d17a-4890-bd2f-17a8d7ed4d8c",
+    "4b1a4d13-40bc-48f1-9f3e-bcea2d57fb08" : "6b33ace7-0f25-40e2-bc66-b60eac452357",
+    "76715d65-f9a8-4136-a2e3-cba797bcc760" : "954612fd-d1ed-40da-a88f-1b3ab1cc0173",
+    "c8bdc6fd-31e6-4e45-941e-aa3ae40f379b" : "334f581b-26d1-4927-908e-973ff7c5c619",
+    "d54aa6b9-ca01-4a8b-8ba2-402248685337" : "6b33ace7-0f25-40e2-bc66-b60eac452357",
+    "75b93610-803f-4d46-9efd-6cddb3b28bfe" : "954612fd-d1ed-40da-a88f-1b3ab1cc0173",
+    "7a00c6ce-aced-47a7-80b4-8be8a960fcb2" : "954612fd-d1ed-40da-a88f-1b3ab1cc0173",
+    "173d5be3-7c50-45b9-84f0-b32dba5ff1b6" : "ac818208-d17a-4890-bd2f-17a8d7ed4d8c",
+    "2d74caab-375d-48ab-b271-fcbe1fef342e" : "334f581b-26d1-4927-908e-973ff7c5c619"
+  }
+}

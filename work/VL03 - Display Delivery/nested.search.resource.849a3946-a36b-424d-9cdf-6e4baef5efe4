@@ -1,0 +1,12 @@
+{
+  "createdBy" : "sue@iacustomer.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "VL03 - Partner",
+  "description" : null,
+  "usedBySearches" : [ "VL03 - Display Delivery" ],
+  "nestedSearch" : true,
+  "state" : "PUBLISHED",
+  "inUse" : false
+}

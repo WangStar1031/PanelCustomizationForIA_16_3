@@ -1,0 +1,12 @@
+{
+  "createdBy" : "admin@sigma-sbs.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "KO03 - Display Internal Order",
+  "description" : "",
+  "usedBySearches" : null,
+  "nestedSearch" : false,
+  "state" : "DRAFT",
+  "inUse" : false
+}

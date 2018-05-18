@@ -1,0 +1,18 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "KS03 - Display Cost Center" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "48443e69-86d8-4851-b76f-ac677255ac19" : "57054269-43a9-4b09-81f6-6db1b7690019",
+    "c67abc39-914b-4f4d-8116-ad74c74cf54f" : "57054269-43a9-4b09-81f6-6db1b7690019",
+    "2d1ad2f3-195e-4f02-9358-8b3e0dd36d0c" : "57054269-43a9-4b09-81f6-6db1b7690019"
+  }
+}

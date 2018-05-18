@@ -1,0 +1,18 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "VA05 - List Sales Order" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "c5f5a0df-1c43-4313-90ee-9b87f74082c6" : "9be6eedc-b013-498f-b073-a34a85f69d28",
+    "8f01a01c-88a9-47cf-bdcb-eb7a86944fd5" : "9be6eedc-b013-498f-b073-a34a85f69d28",
+    "7f5c6a57-670e-4c60-a81e-62230ddac7a8" : "9be6eedc-b013-498f-b073-a34a85f69d28"
+  }
+}

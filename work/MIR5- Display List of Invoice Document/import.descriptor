@@ -1,0 +1,18 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "MIR5- Display List of Invoice Document" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "d651731c-f2cf-40c9-b9ea-451d2a2e5bb1" : "8e25595b-24cf-41a2-88a7-b3b8273281b0",
+    "2f826d31-1390-4006-84dc-befdf93be72a" : "8e25595b-24cf-41a2-88a7-b3b8273281b0",
+    "27c3d570-e206-42e9-80e2-d0e008ae1d4e" : "8e25595b-24cf-41a2-88a7-b3b8273281b0"
+  }
+}

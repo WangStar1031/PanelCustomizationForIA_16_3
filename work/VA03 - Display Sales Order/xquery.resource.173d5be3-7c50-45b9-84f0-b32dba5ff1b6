@@ -1,0 +1,11 @@
+{
+  "createdBy" : "admin@sigma-sbs.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "0fabd94b-6163-4963-98d7-142bcc503053",
+  "query" : "declare namespace ia = \"urn:x-emc:ia:schema:fn\";\ndeclare namespace table=\"urn:x-emc:ia:schema:table\";\n\nimport module namespace sias=\"urn:x-sig:sias:util:fn\";\n\ndeclare variable $page external;\ndeclare variable $size external;\n\ndeclare variable $sVBELN external;\n\ndeclare function local:getResultsPage($rows, $page, $size) {\n  let $offset := $page * $size\n  let $total := count($rows)\n  return <results total=\"{ $total }\"> {\n    for $row in subsequence($rows, $offset + 1, $size)\n      return $row\n  } </results>\n};\ndeclare function local:addClause($whereClause as xs:string, $var as xs:string*, $expr as xs:string) as xs:string\n{\nif (empty($var) or $var = \"\")\nthen $whereClause\nelse if ($whereClause = \"\") then $expr else concat($whereClause, \" and \", $expr)\n};\n\n(: Build a conditional Where clause :)\n\nlet $whereClause := local:addClause(\"\", $sVBELN, concat(\"contains($vbak/VBELN, &apos;\", $sVBELN, \"&apos;)\" )) \nlet $whereClause := if ($whereClause != \"\") then concat(\"where \", $whereClause) else $whereClause\n\nlet $query-str := concat(\"for $vbak in /SAP/VBAK/ROW , $vbep in /SAP/VBEP/ROW[VBELN = $vbak/VBELN] \", $whereClause, \" return <RS><VBAK>{ $vbak }</VBAK><VBEP>{ $vbep }</VBEP></RS>\")\n\nlet $main-query := xhive:evaluate($query-str)\n\nlet $rows := \n               for $rs in $main-query\n               let $EDATU := sias:showdate($rs/VBEP/ROW/EDATU/text())\n    \nreturn\n<row id='{string($rs/VBAK/ROW/@table:id)}'>\n<column name='cEDATU'>{ $rs/VBEP/ROW/EDATU/text() }</column>\n<column name='cWMENG'>{ $rs/VBEP/ROW/WMENG/text() }</column>\n<column name='cCMENG'>{ $rs/VBEP/ROW/CMENG/text() }</column>\n<column name='cBMENG'>{ $rs/VBEP/ROW/BMENG/text() }</column>\n<column name='cETTYP'>{ $rs/VBEP/ROW/ETTYP/text() }</column>\n<column name='cBANFN'>{ $rs/VBEP/ROW/BANFN/text() }</column>\n<column name='cBNFPO'>{ $rs/VBEP/ROW/BNFPO/text() }</column>\n</row>\n\nreturn local:getResultsPage($rows, $page, $size)\n",
+  "moduleNamespaces" : [ "urn:x-sig:sias:util:fn" ],
+  "searchName" : "VA03 - Schedule lines ( item Data )",
+  "compositionName" : "Schedule lines"
+}

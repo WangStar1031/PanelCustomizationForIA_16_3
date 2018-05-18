@@ -1,0 +1,12 @@
+{
+  "createdBy" : "sue@iacustomer.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "MM03 - Tax data",
+  "description" : "\"\"",
+  "usedBySearches" : [ "MM03 - Display Material" ],
+  "nestedSearch" : true,
+  "state" : "PUBLISHED",
+  "inUse" : false
+}

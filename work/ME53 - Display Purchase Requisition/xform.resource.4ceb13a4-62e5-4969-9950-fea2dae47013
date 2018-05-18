@@ -1,0 +1,11 @@
+{
+  "createdBy" : "admin@sigma-sbs.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "64c1e489-30a8-4ff8-8cae-32d0d08ee252",
+  "form" : "<xhtml:html xmlns:xhtml=\"http://www.w3.org/1999/xhtml\" xmlns:xforms=\"http://www.w3.org/2002/xforms\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\n<xhtml:head>\n    <xforms:model>\n        <xforms:instance xmlns=\"\">\n            \n        <data>\n            <sBANFN/></data></xforms:instance>\n        <xforms:instance xmlns=\"\" id=\"labels\">\n            \n        <labels><sBANFN>Purchase Requisition</sBANFN></labels></xforms:instance>\n        <xforms:instance xmlns=\"\" id=\"hints\">\n            \n        <hints><sBANFN>Ex:4008300010</sBANFN></hints></xforms:instance>\n        <xforms:instance xmlns=\"\" id=\"prompts\">\n            \n        <prompts><sBANFN>Ex:4008300010</sBANFN></prompts></xforms:instance>\n        <xforms:instance xmlns=\"\" id=\"alerts\">\n            \n        <alerts><sBANFN/></alerts></xforms:instance>\n        <xforms:instance xmlns=\"\" id=\"range-messages\">\n            \n        <rangemessages><sBANFN/></rangemessages></xforms:instance>\n        <xforms:instance xmlns=\"\" id=\"pattern-messages\">\n            \n        <patternmessages><sBANFN/></patternmessages></xforms:instance>\n        <xforms:submission id=\"submit01\" method=\"post\" serialization=\"application/xml\"/>\n        <xsd:schema xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xforms=\"http://www.w3.org/2002/xforms\" targetNamespace=\"http://www.w3.org/2002/xforms\" elementFormDefault=\"qualified\">\n        </xsd:schema>\n    <bind xmlns=\"http://www.w3.org/2002/xforms\" ref=\"/data/sBANFN\"/></xforms:model>\n</xhtml:head>\n<xhtml:body>\n<input xmlns=\"http://www.w3.org/2002/xforms\" ref=\"sBANFN\" class=\"col-sm-2\"><label ref=\"instance('labels')/sBANFN\"/><hint ref=\"instance('hints')/sBANFN\"/><hint appearance=\"minimal\" ref=\"instance('prompts')/sBANFN\"/><alert ref=\"instance('alerts')/sBANFN\"/><message class=\"range\" ref=\"instance('range-messages')/sBANFN\"/><message class=\"pattern\" ref=\"instance('pattern-messages')/sBANFN\"/></input></xhtml:body>\n</xhtml:html>",
+  "creator" : "COMPOSITION",
+  "searchName" : "ME53 - Display Purchase Requisition",
+  "compositionName" : "ME53"
+}

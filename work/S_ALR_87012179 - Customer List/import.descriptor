@@ -1,0 +1,18 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "S_ALR_87012179 - Customer List" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "c63818a7-479a-4a52-bd3c-798d3ae80320" : "e29b4568-425d-4566-8d04-7e89ada992ef",
+    "a67d1017-9d88-48d8-a271-eda8e8cf0987" : "e29b4568-425d-4566-8d04-7e89ada992ef",
+    "757c4815-e5ef-4229-b176-f86bc33a9204" : "e29b4568-425d-4566-8d04-7e89ada992ef"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "createdBy" : "sue@iacustomer.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "FB03 - Display Document Line Item",
+  "description" : null,
+  "usedBySearches" : [ "FB03 - Financial Document" ],
+  "nestedSearch" : true,
+  "state" : "PUBLISHED",
+  "inUse" : false
+}

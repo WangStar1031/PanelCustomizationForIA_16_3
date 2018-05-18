@@ -1,0 +1,18 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "ZMM_E_T_USR_CLIE" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "ea8cc19d-05fd-41d8-8645-cd617ef39190" : "cfcd048d-f38a-4dee-ab65-cbfe58e3790b",
+    "a9b5253f-9a5e-4b65-819f-f00196333eb8" : "cfcd048d-f38a-4dee-ab65-cbfe58e3790b",
+    "7efafae4-93eb-4403-b009-3edf24ddb13d" : "cfcd048d-f38a-4dee-ab65-cbfe58e3790b"
+  }
+}

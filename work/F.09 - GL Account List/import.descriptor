@@ -1,0 +1,18 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "F.09 - GL Account List" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "f021686b-be9a-4806-8a15-92c0e15f13ea" : "877071e9-ce8e-4741-bb9c-1d847f14fdb8",
+    "164c34d6-b8f9-4a8d-8546-9f22a65ad145" : "877071e9-ce8e-4741-bb9c-1d847f14fdb8",
+    "2bb42df9-5cd4-4f61-b333-de08021a536b" : "877071e9-ce8e-4741-bb9c-1d847f14fdb8"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "FK10N - Vendor Balance Display" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "8b67f8b7-49a6-4d6d-ad5b-335bb5b74dc2" : "9274e495-2d51-434e-a003-413ac2b18ff1",
+    "75ffa611-92a9-4fbc-91da-7e988fd005a8" : "9274e495-2d51-434e-a003-413ac2b18ff1",
+    "36931f50-4a16-48e7-b3c9-438090a49b04" : "9274e495-2d51-434e-a003-413ac2b18ff1"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "createdBy" : "admin@sigma-sbs.com",
+  "createdDate" : null,
+  "lastModifiedBy" : "admin@sigma-sbs.com",
+  "lastModifiedDate" : null,
+  "name" : "VF05 - List of Billing Documents",
+  "description" : "\"\"",
+  "usedBySearches" : null,
+  "nestedSearch" : false,
+  "state" : "DRAFT",
+  "inUse" : false
+}

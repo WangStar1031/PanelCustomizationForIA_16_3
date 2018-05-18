@@ -1,0 +1,28 @@
+{
+  "tenantName" : "INFOARCHIVE",
+  "applicationName" : "SAP",
+  "searchConfigurationMap" : {
+    "MIR4-Display Invoice Document" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    },
+    "MIR4-Display invoice Document items" : {
+      "databaseName" : "SAP-sql-db",
+      "schemaName" : "SAP",
+      "tableName" : null,
+      "aicName" : null,
+      "queryName" : null
+    }
+  },
+  "componentToCompositionMap" : {
+    "08188de7-1320-4ac3-b682-126fa6516673" : "cf7d0aa9-6fa3-44f7-85fc-7504e8831211",
+    "e354e564-68d2-49d2-bb8b-a5d5ef4ecba6" : "cf7d0aa9-6fa3-44f7-85fc-7504e8831211",
+    "1536c3e1-3512-48de-a1da-cb58d68a0cf4" : "57af8d84-7363-4b0f-8dfd-7190e5a3b6e9",
+    "d76bd0f3-a6ae-4b0c-b319-79deaa65a9ee" : "57af8d84-7363-4b0f-8dfd-7190e5a3b6e9",
+    "557453b9-2e2d-4ee7-938e-1cd8b7201f7f" : "57af8d84-7363-4b0f-8dfd-7190e5a3b6e9",
+    "6c39b456-b45e-4e3c-9919-6de61f179d23" : "cf7d0aa9-6fa3-44f7-85fc-7504e8831211"
+  }
+}
